@@ -1,0 +1,24 @@
+name: TomoPyWorkshop
+version: 0.0.0
+
+channels:
+  - https://conda.anaconda.org/conda-forge
+  - https://repo.anaconda.com/pkgs/main
+
+conda_default_channels:
+  - https://conda.anaconda.org/conda-forge
+  - https://repo.anaconda.com/pkgs/main
+
+specs:
+  - conda
+  - dxchange
+  - jupyter
+  - python 3.7
+  - tomopy
+
+exclude:
+  - qt
+  - sip
+  - pyqt
+
+license_file: LICENSE
