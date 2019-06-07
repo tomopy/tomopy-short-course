@@ -1,20 +1,23 @@
-name: TomoPyWorkshop
+name: TomoPyShortCourse
 version: 0.0.0
 
 channels:
-  - https://conda.anaconda.org/conda-forge
   - https://repo.anaconda.com/pkgs/main
+  - http://repo.anaconda.com/pkgs/msys2  # [win]
+  - https://conda.anaconda.org/conda-forge
 
 conda_default_channels:
-  - https://conda.anaconda.org/conda-forge
   - https://repo.anaconda.com/pkgs/main
+  - https://conda.anaconda.org/conda-forge
 
 specs:
-  - conda
+  - conda >= 4.5.0
   - dxchange
   - jupyter
   - python 3.7
   - tomopy
+  - console_shortcut  # [win]
+  - menuinst  # [win]
 
 exclude:
   - qt
