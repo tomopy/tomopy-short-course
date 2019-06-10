@@ -8,3 +8,16 @@ Use the "Help request" template to ensure that you are including important infor
 
 ## Feature requests
 Use the "Feature request" template to propose or request a new feature for TomoPy.
+
+
+<!--- INSTRUCTOR ACTIVITY
+
+Open an Issue on the tomopy-short-course page. Demonstrate the following:
+
+1. Navigate to the Issues page
+2. Choose a template
+3. Use the preview tab
+4. Format code
+5. Write a useful title
+
+--->
