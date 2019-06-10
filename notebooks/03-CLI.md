@@ -8,13 +8,13 @@ On Windows, search for a program called `cmd`.
 ## CLI Basics
 The command line is a text interface to your computer. To run programs from a command line, we use the following syntax:
 
-```bash
+```
 $ [program] [arguments] [options]
 ```
 
-The [program] that we want to run must be named first. Then we list positional [arguments] for that program and [options]. For example:
+The `[program]` that we want to run must be named first. Then we list positional `[arguments]` for that program and `[options]`. For example:
 
-```bash
+```
 $ cowpy "Hi, I'm a cow."
 ________________
 < Hi, I'm a cow. >
@@ -31,7 +31,7 @@ In this case, the program is called `cowpy`, and it has a positional argument wh
 
 Options are provided to programs using a single minus `-` with a letter(s) or a double minus `--` with a word(s). For example, many programs will provide a short summary of how to use them by passing the `--help` option.
 
-```bash
+```
 $ cowpy --help
 usage: cowpy [-h] [-l] [-L] [-t] [-u] [-e EYES] [-c COWACTER] [-E] [-r] [-x]
              [-C]
