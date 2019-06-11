@@ -65,6 +65,6 @@ Demonstrate using the cowsay help to make a cow with different eyes.
 
 --->
 
-## SOLO ACTIVITY
+## ACTIVITY
 
 Use `cowpy` to make a cat say something that your favorite teacher told you once.
