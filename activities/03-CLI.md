@@ -9,7 +9,7 @@ On Windows, search for a program called `cmd`.
 The command line is a text interface to your computer. To run programs from a command line, we use the following syntax:
 
 ```
-$ [program] [arguments] [options]
+[program] [arguments] [options]
 ```
 
 The `[program]` that we want to run must be named first. Then we list positional `[arguments]` for that program and `[options]`. For example:
@@ -65,8 +65,6 @@ Demonstrate using the cowsay help to make a cow with different eyes.
 
 --->
 
-<!--- SOLO ACTIVITY
+## SOLO ACTIVITY
 
-Use cowsay to make a cat say something your favorite teacher told you once.
-
---->
+Use `cowpy` to make a cat say something that your favorite teacher told you once.
