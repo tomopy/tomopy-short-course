@@ -7,18 +7,17 @@ We use Conda to distribute and provide updates for TomoPy. Conda is the package 
 ## Installing Conda
 
 ### With internet
-Download [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-
-Follow the [installation instructions](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
+1. Download [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+2. Follow the [installation instructions](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 ### Without internet
-Your instructor has provided you with a Conda distribution called `TomoPyShortCourse-0.0.0-[OS-name]x86_64.[extension]`. You can install Conda using this executable.
+1. Your instructor has provided you with a Conda distribution called `TomoPyShortCourse-0.0.0-[OS-name]x86_64.[extension]`. You can install Conda using this executable.
 
 #### Windows
-Run the installer by clicking on it.
+2. Run the installer by clicking on it.
 
 #### Unix
-Run the installer using the terminal like so:
+2. Run the installer using the terminal like so:
 <!---
 Calling bash directly means you don't need to change exec permissions on the file.
 --->
@@ -43,7 +42,7 @@ The first time you install TomoPy, do this:
 conda create -n [environment-name] tomopy dxchange -c conda-forge
 ```
 
-This will create a new Conda environment named [environment-name] and install the most recent version of TomoPy and DXchange from the conda-forge channel.
+This will create a new Conda environment named `[environment-name]` and install the most recent version of TomoPy and DXchange from the conda-forge channel.
 
 Then you can activate the new environment using:
 
@@ -51,7 +50,7 @@ Then you can activate the new environment using:
 conda activate [environment-name]
 ```
 
-In the future, you can get updates to TomoPy
+In the future, you can get updates to TomoPy.
 
 ```
 $ conda update tomopy -c conda-forge
