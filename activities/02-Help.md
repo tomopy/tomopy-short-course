@@ -1,5 +1,5 @@
 # Getting help with TomoPy
-You should first consult the [documentation](https://tomopy.readthedocs.io/en/latest/) if you are unsure about how to use Tomopy.
+You should first consult the [documentation](https://tomopy.readthedocs.io/en/latest/) if you are unsure about how to use TomoPy.
 
 The easiest way to report bugs or get additional help is to open an issue on GitHub. Simply go to the project GitHub page, click on [the Issues tab](https://github.com/tomopy/tomopy/issues), register, and submit your question.
 

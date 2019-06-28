@@ -18,3 +18,4 @@
 * [Tomosaic](https://tomosaic.readthedocs.io): Automated registration of large full-field scans
 * Tomo UI: Interactive visualization and workflow designing
 * [ASTRA](https://www.astra-toolbox.com/): Tomographic reconstruction toolkit with GPU acceleration
+* [LPRec](https://github.com/math-vrn/lprec) A Log-polar GPU based solver for tomography reconstruction
