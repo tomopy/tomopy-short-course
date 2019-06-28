@@ -4,7 +4,11 @@
 
 We use Conda to distribute and provide updates for TomoPy. Conda is the package management program, Anaconda is a distribution that provides Conda and many packages pre-installed. Miniconda is a distribution that provides Conda and fewer pacakges pre-installed.
 
-## Installing Conda
+<!--- INSTRUCTOR ACTIVITY
+Live demonstrate the installer on your own machine.
+--->
+
+## ACTIVITY: Installing Conda
 
 ### With internet
 1. Download [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
@@ -24,10 +28,6 @@ Calling bash directly means you don't need to change exec permissions on the fil
 ```
 bash TomoPyShortCourse[bla-bla-bla].sh
 ```
-
-<!--- INSTRUCTOR ACTIVITY
-Live demonstrate the installer on your own machine.
---->
 
 ## Conda environments
 Conda environments are used to keep packages with conflicting dependencies separate. We recommend installing TomoPy into it's own environment.
