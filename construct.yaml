@@ -1,21 +1,23 @@
 name: TomoPyShortCourse
 version: 0.0.0
+ignore_duplicate_files: True
+install_in_dependency_order: True
 
 channels:
+  - https://conda.anaconda.org/conda-forge
   - https://repo.anaconda.com/pkgs/main
   - http://repo.anaconda.com/pkgs/msys2  # [win]
-  - https://conda.anaconda.org/conda-forge
 
 conda_default_channels:
-  - https://repo.anaconda.com/pkgs/main
   - https://conda.anaconda.org/conda-forge
+  - https://repo.anaconda.com/pkgs/main
 
 specs:
   - conda >= 4.5.0
   - dxchange
   - jupyter
-  - python 3.7
-  - tomopy
+  - python 3.6*
+  - tomopy >= 1.5
   - console_shortcut  # [win]
   - menuinst  # [win]
 
