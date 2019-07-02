@@ -1,5 +1,5 @@
 name: TomoPyShortCourse
-version: 0.0.0
+version: 0.0.1
 ignore_duplicate_files: True
 install_in_dependency_order: True
 
@@ -13,7 +13,7 @@ conda_default_channels:
   - https://repo.anaconda.com/pkgs/main
 
 specs:
-  - conda >= 4.5.0
+  - conda 4.5*
   - dxchange
   - jupyter
   - python 3.6*
