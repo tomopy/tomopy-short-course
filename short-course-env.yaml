@@ -1,0 +1,10 @@
+name: tomopy-short-course
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cowpy
+  - dxchange
+  - jupyter
+  - python 3*
+  - tomopy 1.5*
