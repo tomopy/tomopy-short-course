@@ -10,8 +10,10 @@ The short course requires a 64-bit computer running Windows 10, macOS, or Linux,
 ## Source-code Organization
 This repository contains the source files to run the workshop.
 
-`activities/` contains markdown pages, jupyter notebooks, and materials for each of the course activities.
+`activities/` contains a conda environment yaml listing required packages, markdown pages, jupyter notebooks, and materials for each of the course activities.
+
+`solutions/` contains example scripts for the two final activities.
 
 `citations.bib` contains citations for related works.
 
-`construct.yaml` is for using the [conda constructor](https://github.com/conda/constructor) to create a custom miniconda installer which comes with TomoPy and jupyter notebook preinstalled (no internet needed).
+`build/` contains `construct.yaml` which is for using the [conda constructor](https://github.com/conda/constructor) to create a custom miniconda installer which comes with TomoPy and jupyter notebook preinstalled (no internet needed).
