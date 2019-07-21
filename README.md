@@ -17,3 +17,7 @@ This repository contains the source files to run the workshop.
 `citations.bib` contains citations for related works.
 
 `build/` contains `construct.yaml` which is for using the [conda constructor](https://github.com/conda/constructor) to create a custom miniconda installer which comes with TomoPy and jupyter notebook preinstalled (no internet needed).
+
+## Anonymous Survey
+
+https://forms.gle/NK5yhVq5yGcAvRKs6
