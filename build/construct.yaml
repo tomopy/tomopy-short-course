@@ -23,7 +23,6 @@ specs:
 
 exclude:
   - qt
-  - sip  # [not win]
   - pyqt
 
 license_file: ../LICENSE
