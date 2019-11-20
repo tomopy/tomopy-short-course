@@ -1,0 +1,9 @@
+name: tomopy-short-course
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dxchange
+  - python
+  - matplotlib
+  - tomopy
