@@ -1,5 +1,5 @@
 name: TomoPyShortCourse
-version: 0.0.1
+version: 0.0.4
 ignore_duplicate_files: True
 install_in_dependency_order: True
 
@@ -23,7 +23,7 @@ specs:
 
 exclude:
   - qt
-  - sip
+  - sip  # [not win]
   - pyqt
 
-license_file: LICENSE
+license_file: ../LICENSE
