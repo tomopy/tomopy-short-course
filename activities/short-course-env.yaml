@@ -7,4 +7,4 @@ dependencies:
   - dxchange
   - jupyter
   - python 3*
-  - tomopy 1.5*
+  - tomopy
