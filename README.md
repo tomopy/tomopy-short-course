@@ -10,7 +10,7 @@ The short course requires a 64-bit computer running Windows 10, macOS, or Linux,
 ## Source-code Organization
 This repository contains the source files to run the workshop.
 
-`activities/` contains a conda environment yaml listing required packages, markdown pages, jupyter notebooks, and materials for each of the course activities. Activities 5...7 may also be explored online using [Binder](https://mybinder.org/v2/gh/tomography/tomopy-short-course/master).
+`activities/` contains a conda environment yaml listing required packages, markdown pages, jupyter notebooks, and materials for each of the course activities. All activities may also be explored online using a [Jupyter Lab hosted on MyBinder](https://mybinder.org/v2/gh/tomography/tomopy-short-course/master?urlpath=lab).
 
 `solutions/` contains example scripts for the two final activities.
 
